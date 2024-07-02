@@ -1,9 +1,5 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { ProductComponent } from './product/product.component';
-import { ProductDetailComponent } from './product/product-detail/product-detail.component';
-import { AddProductComponent } from './product/add-product/add-product.component';
-import { ModifyComponent } from './product/modify/modify.component';
+
 
 
 export const routes: Routes = [
@@ -39,7 +35,7 @@ export const routes: Routes = [
         path: 'proposals',
         loadComponent: () => import('./proposals/proposals.component').then(m => m.ProposalsComponent),
     },
-    
-   
+
+
 
 ];
