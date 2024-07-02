@@ -1,0 +1,67 @@
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+
+.detailBtn {
+        color: #ffffff;
+        font-weight: bold;
+        background: #3eb548;
+        border: 1px solid #3eb548;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+        border-radius: 6px;
+        outline-color: transparent;
+}
+.editBtn {
+    color: #ffffff;
+    font-weight: bold;
+    background: #3087dd;
+    border: 1px solid #3087dd;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+    border-radius: 6px;
+    outline-color: transparent;
+}
+.deleteBtn {
+    color: #ffffff;
+    font-weight: bold;
+    background: red;
+    border: 1px solid red;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+    border-radius: 6px;
+    outline-color: transparent;
+}
+.backBtn{
+    color: #ffffff;
+    font-weight: bold;
+    background: rgb(244, 137, 14);
+    border: 1px solid rgb(244, 137, 14);
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+    border-radius: 6px;
+    outline-color: transparent;
+}
+.center {
+    text-align: center;
+    border: 1px solid #e5e7eb;
+    border-width: 0 0 1px 0;
+    padding: 1rem 1rem;
+}
+.pointer:hover{
+    cursor: pointer;;
+}
+#marginSpace{
+    margin-top: 15rem;
+}
+.bacgroundGray, html, body{
+    background: rgb(255, 254, 254);
+}
+.formBox{
+    width: 50rem;
+    height: 50rem;
+}

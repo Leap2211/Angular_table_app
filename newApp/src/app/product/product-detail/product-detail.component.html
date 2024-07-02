@@ -1,0 +1,24 @@
+
+@if(product){
+    
+<div  class="flex justify-content-center gap-4 mt-3">
+   
+    <div>
+        <img class="border-round" [src]="product.image" width="500" height="500" alt="image">
+    </div>
+    
+    <div class="flex flex-column justify-content-center align-items-center gap-3 w-30rem h-20rem bg-gray-50 shadow-2  text-xl border-round mt-8">
+        <div>Name: {{product.name}}</div>
+        <div>Price: {{product.price | currency}}</div>
+        <div>Category: {{product.category}}</div> 
+        <div>Quantity: {{product.quantity}}</div>
+        <div>Status: {{product.status}}</div>
+        <button (click)="handleBack()" class="backBtn">Back</button>
+    </div>
+
+</div> 
+
+}
+@else{
+    <p>Loading...</p>
+}

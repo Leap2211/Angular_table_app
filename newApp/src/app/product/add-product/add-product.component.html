@@ -1,0 +1,114 @@
+<p-toast></p-toast>
+<p-confirmDialog />
+
+
+ <!-- <div class="flex justify-content-around mt-3">
+    <form class="formBox flex flex-column p-2 align-items-center justify-content-center bg-gray-50 shadow-1 border-round"
+     [formGroup]="createProductForm" >
+        <h1 class="text-center">Create Product</h1>
+        <label  for="name">Product Name</label><input class="p-2 w-20rem" formControlName="name">
+        <label for="price">Product Price</label><input class="p-2 w-20rem" formControlName="price">
+        <label for="quantity">Product Quantity</label><input class="p-2 w-20rem" formControlName="quantity">
+        <label for="category">Product Category</label><input class="p-2 w-20rem" formControlName="category">
+        <label for="image">Product Image</label><input class="p-2 w-20rem" formControlName="image" placeholder="image url">
+        <label for="status">Product Status</label><input class="p-2 w-20rem mb-3" formControlName="status">
+       
+
+        
+        <button (click)="confirm1($event)" class="editBtn pointer">Create</button>
+        <button (click)="handleBack()" class="backBtn pointer">Back to Menu</button>
+    </form>
+    
+</div> -->
+
+<div class="">
+    <h1 class="">Create Product</h1>
+    <form [formGroup]="createProductForm">
+        <div class="grid ">
+            <div class="col-3">
+                <label for="name">Product Name: <input class="p-2 w-22rem" formControlName="name"/>
+                </label>
+            </div>
+    
+            <div class="col-3">
+                <label for="price">Price: <input class="p-2 w-22rem" formControlName="price"/>
+                </label>
+            </div>
+    
+            <div class="col-3">
+                <label for="Quantity">Quantity: <input class="p-2 w-22rem" formControlName="quantity"/>
+                </label>
+            </div>
+    
+        </div>
+        <div class="grid mt-3">
+            <div class="col-3">
+                <label for="category">Category: 
+                    <select class="p-2 w-22rem" name="category" id="" formControlName="category">
+                        <option value="Electronics">Electronics</option>
+                        <option value="Clothes">Clothes</option>
+                        <option value="Furniture">Furniture</option>
+                        <option value="Food">Food</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </label>
+            </div>
+    
+            <div class="col-3">
+                <label for="image">Image URL: <input class="p-2 w-22rem" formControlName="image"></label>
+            </div>
+    
+            <div class="col-3">
+                <label for="status">Status: <input class="p-2 w-22rem" formControlName="status"></label>
+            </div> 
+        </div>
+    </form>
+
+    <div class="flex gap-3 mt-4">
+        <button (click)="handleBack()" class="backBtn pointer">Back to Menu</button>
+        <button (click)="confirm1($event)" class="editBtn pointer">Create</button>
+    </div>
+    
+</div>
+<!-- <form [formGroup]="createProductForm">
+    <div class="grid">
+        <div class="col-4">
+            <label for="name">Product Name: <input class="p-2 w-22rem" formControlName="name"/>
+            </label>
+        </div>
+
+        <div class="col-4">
+            <label for="price">Price: <input class="p-2 w-22rem" formControlName="price"/>
+            </label>
+        </div>
+
+        <div class="col-4">
+            <label for="Quantity">Quantity: <input class="p-2 w-22rem" formControlName="quantity"/>
+            </label>
+        </div>
+
+    </div>
+    <div class="grid mt-3">
+        <div class="col-4">
+            <label for="category">Category: 
+                <select class="p-2 w-22rem" name="category" id="" formControlName="category">
+                    <option value="electronics">Electronics</option>
+                    <option value="clothes">Clothes</option>
+                    <option value="furniture">Furniture</option>
+                    <option value="food">Food</option>
+                    <option value="others">Others</option>
+                </select>
+            </label>
+        </div>
+
+        <div class="col-4">
+            <label for="image">Image URL: <input class="p-2 w-22rem" formControlName="image"></label>
+        </div>
+
+        <div class="col-4">
+            <label for="status">Status: <input class="p-2 w-22rem" formControlName="status"></label>
+        </div>
+       
+        
+    </div>
+</form> -->

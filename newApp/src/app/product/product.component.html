@@ -1,0 +1,49 @@
+<p-toast></p-toast>
+<p-confirmDialog />
+
+
+<p-table [value]="products"
+        
+         [tableStyle]="{'min-width': '60rem'}"
+         [paginator]="true"
+         [rows]="10"
+         >
+    <ng-template pTemplate="caption" let-product>
+        <button class="editBtn pointer" (click)="handleCreate()">Add Product</button>
+        
+    </ng-template>
+    <ng-template pTemplate="header">
+        <tr>
+            <th>No</th>
+            <th>Name</th>
+            <th>Image</th>
+            <th>Price</th>
+            <th>Category</th>
+            <th>Quantity</th>
+            <th>Status</th>
+            <th>Actions</th>
+            
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-product >
+        <tr>
+            <td>{{ product.id }}</td>
+            <td>{{ product.name }}</td>
+            <td><img [src]=" product.image" [alt]="product.name" width="80" class="shadow-2" /></td>
+            <td>{{ product?.price | currency }}</td>
+            <td class="center">{{ product.category }}</td>
+            <td class="center">{{ product.quantity}}</td>
+            <td>{{ product.status }}</td>  
+            
+           <td>
+                <div class="flex gap-4 ">
+                   <button (click)="handleDetail(product.id)" class="detailBtn pointer">Details</button>
+                   <button (click)="handleEdit(product.id)" class="editBtn pointer">Edit</button>
+                    <button (click)="confirm1($event, product.id)" class="deleteBtn pointer">Delete</button>
+                </div>
+           </td>
+        </tr>
+    </ng-template>
+    
+</p-table>
+  

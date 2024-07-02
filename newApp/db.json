@@ -1,0 +1,202 @@
+{
+  "product": [
+    {
+      "name": "Microsoft Surface 9 Pro",
+      "price": "1399",
+      "quantity": 20,
+      "category": "Electronics",
+      "image": "https://icuracao.com/media/catalog/product/cache/ebc7fb90b21f5eb74aecbdd15a6003e6/4/_/4_33I-706-QIL00035_6463d9cbe986d.jpg",
+      "status": "IN STOCK",
+      "id": "1"
+    },
+    {
+      "name": "IPhone 15 ",
+      "price": "1299",
+      "quantity": 15,
+      "category": "Electronics",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369818",
+      "status": "IN STOCK",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "Headphones",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQTQ3?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1687660671363",
+      "category": "Electronics",
+      "quantity": 20,
+      "price": 149.99,
+      "status": "IN STOCK"
+    },
+    {
+      "name": "K Keyboard",
+      "price": 79.99,
+      "quantity": 8,
+      "category": "Electronics",
+      "image": "https://resource.logitech.com/w_692,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/keyboards/mx-mechanical/gallery/mx-mechanical-mini/mx-mechanical-mini-mini-keyboard-top-view-graphite-us.png?v=1",
+      "status": "LOW STOCK",
+      "id": "4"
+    },
+    {
+      "id": "5",
+      "name": "Mouse",
+      "image": "https://resource.logitech.com/w_692,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/mice/m240/product-gallery/m240-mouse-top-view-graphite.png?v=1",
+      "category": "Electronics",
+      "quantity": 5,
+      "price": 29.99,
+      "status": "LOW STOCK"
+    },
+    {
+      "id": "6",
+      "name": "Monitor",
+      "image": "https://www.rockinit.co.za/wp-content/uploads/2018/10/Samsung-24-CFG73-Gaming-Monitor-with-Quantum-Dot.jpg",
+      "category": "Electronics",
+      "quantity": 3,
+      "price": 299.99,
+      "status": "LOW STOCK"
+    },
+    {
+      "id": "7",
+      "name": "Desk",
+      "image": "https://cdn.shopify.com/s/files/1/0060/3262/1637/files/smart-desk-cam-17-8-k-2-copy_3x_5cd8bdca-5299-417b-a0cb-942b06093f83_480x480.png?v=1684228484",
+      "category": "Furniture",
+      "quantity": 12,
+      "price": 199.99,
+      "status": "IN STOCK"
+    },
+    {
+      "id": "8",
+      "name": "Chair",
+      "image": "https://i5.walmartimages.com/asr/54d09f60-af3a-4dae-8f7d-8e0935ac8bb1.1d3e361178001061c9a7fbd9a1f98842.jpeg",
+      "category": "Furniture",
+      "quantity": 6,
+      "price": 129.99,
+      "status": "LOW STOCK"
+    },
+    {
+      "name": "Bookshelf",
+      "price": "99.99",
+      "quantity": 4,
+      "category": "Furniture",
+      "image": "https://th.bing.com/th/id/OIP.tj1eEymFXV4NXJvs0OjkZAHaHa?w=500&h=500&rs=1&pid=ImgDetMain",
+      "status": "OUT OF STOCK",
+      "id": "9"
+    },
+    {
+      "id": "10",
+      "name": "Bed",
+      "image": "https://i5.walmartimages.com/asr/cb5ec1ea-636c-4fb0-b8b7-7da557b5683b.976ac94cff50a57ab8e123f59b197fc8.jpeg",
+      "category": "Furniture",
+      "quantity": 0,
+      "price": 499.99,
+      "status": "OUT OF STOCK"
+    },
+    {
+      "name": "Katana",
+      "price": 499.99,
+      "quantity": 15,
+      "category": "Others",
+      "image": "https://i.pinimg.com/originals/b3/8f/c3/b38fc32fd58f2e289d15c77ebfd649be.jpg",
+      "status": "LOW OF STOCK",
+      "id": "11"
+    },
+    {
+      "id": "12",
+      "name": "Watch",
+      "image": "https://th.bing.com/th/id/R.e397f788b2d3bfa17ba9a679e5dd10a7?rik=iwhniOaXIIhvww&riu=http%3a%2f%2fwww.bhphotovideo.com%2fimages%2fimages2500x2500%2fapple_mj2x2ll_a_watch_sport_smartwatch_38mm_1187194.jpg&ehk=eOf8xtWwoF1fgsEnYQ7Mtu8zDfvnfn4AR8bDjh%2bevBs%3d&risl=&pid=ImgRaw&r=0",
+      "category": "Electronics",
+      "quantity": 10,
+      "price": 199.99,
+      "status": "IN STOCK"
+    },
+    {
+      "id": "13",
+      "name": "T-shirt",
+      "image": "https://static.zara.net/assets/public/6b70/d277/7ba340d282fd/55d06cb5cd11/06224423802-a1/06224423802-a1.jpg?ts=1711541562995&w=620",
+      "category": "Fashion",
+      "quantity": 25,
+      "price": 19.99,
+      "status": "IN STOCK"
+    },
+    {
+      "id": "14",
+      "name": "Jeans",
+      "image": "https://static.zara.net/assets/public/e573/c703/defb4ad18645/dab3492a5aea/06688307427-e1/06688307427-e1.jpg?ts=1717142881978&w=850",
+      "category": "Fashion",
+      "quantity": 18,
+      "price": 59.99,
+      "status": "LOW STOCK"
+    },
+    {
+      "id": "15",
+      "name": "Dress",
+      "image": "https://static.zara.net/assets/public/2e94/fada/dc1648709ec7/faba8badf5ba/09598427251-e1/09598427251-e1.jpg?ts=1707395662890&w=436",
+      "category": "Fashion",
+      "quantity": 14,
+      "price": 79.99,
+      "status": "LOW STOCK"
+    },
+    {
+      "id": "16",
+      "name": "Handbag",
+      "image": "https://static.zara.net/assets/public/4715/ce38/a65c4baaa064/9f0ae48695bc/13614320805-e1/13614320805-e1.jpg?ts=1707486458676&w=850",
+      "category": "Fashion",
+      "quantity": 3,
+      "price": 49.99,
+      "status": "LOW STOCK"
+    },
+    {
+      "id": "17",
+      "name": "Backpack",
+      "image": "https://static.zara.net/assets/public/06b8/6134/f23d406589c1/d8d6966009e3/13253220800-e1/13253220800-e1.jpg?ts=1706868248200&w=850",
+      "category": "Fashion",
+      "quantity": 6,
+      "price": 89.99,
+      "status": "LOW STOCK"
+    },
+    {
+      "id": "18",
+      "name": "Airport Pro 3",
+      "image": "https://images.macrumors.com/t/st5D3jGqKUEE20W5Gqsj6uT0DKU=/1600x/https://images.macrumors.com/article-new/2019/10/airpods_pro_roundup_header.png",
+      "category": "Electronics",
+      "quantity": "23",
+      "price": "250",
+      "status": "IN STOCK"
+    },
+    {
+      "id": "19",
+      "name": "Elite Bike",
+      "image": "https://i5.walmartimages.com/asr/03e250d1-4204-4ac8-9e82-4d8aac82e200_1.a1d4bcc05375697b1071f51700281181.jpeg",
+      "category": "Others",
+      "quantity": "30",
+      "price": "300",
+      "status": "IN STOCK"
+    },
+    {
+      "id": "20",
+      "name": "Motor",
+      "image": "https://th.bing.com/th/id/OIP.fwDRPcqWcy4itqGw8r1z4AAAAA?rs=1&pid=ImgDetMain",
+      "category": "Others",
+      "quantity": "232",
+      "price": "2323",
+      "status": "IN STOCK"
+    },
+    {
+      "id": "21",
+      "name": "Magic Mouse",
+      "image": "https://idocstore.cl/cdn/shop/products/MOUSE1_1200x1200.jpg?v=1685482815",
+      "category": "Electronics",
+      "quantity": "100",
+      "price": "99.99",
+      "status": "IN STOCK"
+    },
+    {
+      "name": "Samsung  Galaxy S24 Ultra",
+      "price": "2000",
+      "quantity": "20",
+      "category": "Electronics",
+      "image": "https://cdn.andro4all.com/andro4all/2023/12/samsung-galaxy-s24-9.jpg?height=600",
+      "status": "LOW STOCK",
+      "id": "22"
+    }
+  ]
+}
